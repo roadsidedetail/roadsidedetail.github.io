@@ -6,7 +6,7 @@
 
 html, body {
     height:100%;
-    background-color: #eee;
+    background-color: #ddd;
     font-family: "Arial", sans-serif;
 }
 /* Slideshow container */
@@ -106,6 +106,7 @@ html, body {
 a { text-decoration: none; }
 
 #content {
+	background-color: #eee;
     overflow:hidden;
     width: 100%;
 }
@@ -128,7 +129,8 @@ hr {
     text-align: center;
 }
 
-#contact { 
+#contact {
+	background-color: #eee; 
     display:table;
     width: 100%;
 }
@@ -161,13 +163,13 @@ header {
 
 footer {
     display: block;
-	padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
     height: 35px;
     line-height: 35px;
     text-align:center;
     bottom: 0;
     width: 100%;
-    background-color: #222;
-    color: white;
+    //background-color: #222;
+    //color: white;
 }
